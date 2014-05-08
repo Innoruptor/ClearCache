@@ -60,7 +60,7 @@
   counter++;
   
   timeLabel.text = currentTime;
-  counterLabel.text = [NSString stringWithFormat:@"counter: %i", counter];
+  counterLabel.text = [NSString stringWithFormat:@"counter: %li", (long)counter];
 }
 
 @end
