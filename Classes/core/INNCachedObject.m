@@ -21,7 +21,7 @@
 }
 
 - (NSString *) description{
-  return [NSString stringWithFormat:@"{%@,%@,%@,%i}",self.value, self.creationDate, self.lastAccessedDate, self.accessedCount];
+  return [NSString stringWithFormat:@"{%@,%@,%@,%li}",self.value, self.creationDate, self.lastAccessedDate, (long)self.accessedCount];
 }
 
 -(void) setValue:(id)value{
