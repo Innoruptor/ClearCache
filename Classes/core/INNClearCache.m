@@ -92,7 +92,7 @@
   for(int i=0;i<parameterIndexes.count;i++){
     NSInteger index = [parameterIndexes[i] integerValue];
     
-    key = [NSString stringWithFormat:@"%@~%@", key, [[self getArgumentAtIndexAsObject:2+index invocation:invocation] description]];
+    key = [NSString stringWithFormat:@"%@~%@", key, [[self getArgumentAtIndexAsObject:index+2 invocation:invocation] description]];
   }
   
   return key;
@@ -404,7 +404,7 @@ const char *OCMTypeWithoutQualifiers(const char *objCType)
   }
 }
 
-- (id)getArgumentAtIndexAsObject:(int)argIndex invocation:(NSInvocation *)invocation{
+- (id)getArgumentAtIndexAsObject:(NSInteger)argIndex invocation:(NSInvocation *)invocation{
   //
   // supported cislqCISLQfd@#
   //
