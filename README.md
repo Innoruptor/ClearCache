@@ -33,7 +33,7 @@ Questions to ask about your data:
 - can you predict the need for future resources?
 - do you cache the raw data or higher level app objects?
 
-Exmaples of what to cache:
+Examples of what to cache:
 - values that are time consuming to recreate or calculate
 - images loaded from disk or server
 - data loaded from disk or server
