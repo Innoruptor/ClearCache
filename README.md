@@ -219,9 +219,10 @@ For now drop the files in the Classes folder into your project.
 
 ## Author
 
-Michael Raber, michael@innoruptor.com, @michaelraber
+Michael Raber, michael@innoruptor.com, [@michaelraber]
 
 ## License
 
 ClearCache is available under the BSD license. See the LICENSE file for more info.
 
+[@michaelraber]:http://twitter.com/michaelraber
