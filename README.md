@@ -5,7 +5,7 @@ Mobile app developers spend a lot of time writing code to access remote data and
 
 ## What is ClearCache?
 
-The ClearCache perspective on caching is to stay out of the way of building the app.  This is accomplished by allowing you to add in caching later without having to rewrite major areas of the code.  ClearCache leverages the NSPoxy class which sits between your app code and the logic you use to calculate and retrieve data and assets.
+The ClearCache perspective on caching is to stay out of the way of building the app.  This is accomplished by allowing you to add in caching later without having to rewrite major areas of the code.  ClearCache leverages the NSProxy class which sits between your app code and the logic you use to calculate and retrieve data and assets.
 
 The only requirement for using ClearCache is that your data to be cached sits behind a method call and is one of the supported data types defined below in the section "Data Types Supported."
 
@@ -219,7 +219,7 @@ For now drop the files in the Classes folder into your project.
 
 ## Author
 
-Michael Raber, michael@innoruptor.com
+Michael Raber, michael@innoruptor.com, @michaelraber
 
 ## License
 
