@@ -1,6 +1,6 @@
 # ClearCache
 
-Mobile app developers spend a lot of time writing code to access remote data and assets (i.e. images) used within apps.  ClearCache aims to simplify the configuring and managing of caching layers within the app.
+Mobile app developers spend a lot of time writing code to access remote data and assets (i.e. images) used within apps.  ClearCache aims to simplify the configuring and managing of caching layers within the app at the method level.
 
 
 ## What is ClearCache?
